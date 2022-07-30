@@ -1,0 +1,15 @@
+﻿<Window x:Class="PushBoxer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PushBoxer"
+        mc:Ignorable="d"
+        Title="弹幕推箱子1代" Height="1080" Width="1920"
+        Loaded="Window_Loaded"
+        Closing="Window_Closing"
+        Closed="Window_Closed">
+    <Viewbox Stretch="Fill">
+        <Grid Name="MainScreen" Height="1080" Width="1920"/>
+    </Viewbox>
+</Window>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="64" tileheight="64" infinite="0" nextlayerid="10" nextobjectid="1281">
+ <tileset firstgid="1" name="MapImage1" tilewidth="64" tileheight="64" tilecount="63" columns="9">
+  <image source="../MapImage1.png" width="576" height="448"/>
+ </tileset>
+ <tileset firstgid="64" name="role" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="../role.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="65" name="box1" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="../box1.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="66" name="point" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="../point4.png" width="64" height="64"/>
+ </tileset>
+ <layer id="1" name="Block" width="20" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1,2,2,2,2,2,3,0,0,0,0,0,0,0,0,0,0,0,0,
+0,10,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,
+0,10,0,0,9,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,
+0,10,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,
+0,10,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,
+0,10,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,
+0,10,0,0,9,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,
+0,19,20,20,20,20,20,21,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="Road" width="20" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,11,11,11,11,11,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,11,11,0,11,11,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,11,11,11,11,11,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,11,11,11,11,11,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,11,11,11,11,11,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,11,11,0,11,11,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="9" name="entity">
+  <object id="1257" gid="66" x="192" y="192" width="64" height="64"/>
+  <object id="1258" gid="66" x="128" y="256" width="64" height="64"/>
+  <object id="1259" gid="66" x="192" y="256" width="64" height="64"/>
+  <object id="1260" gid="66" x="128" y="192" width="64" height="64"/>
+  <object id="1261" gid="66" x="320" y="192" width="64" height="64"/>
+  <object id="1262" gid="66" x="320" y="256" width="64" height="64"/>
+  <object id="1263" gid="66" x="384" y="256" width="64" height="64"/>
+  <object id="1264" gid="66" x="384" y="192" width="64" height="64"/>
+  <object id="1265" gid="65" x="256" y="192" width="64" height="64"/>
+  <object id="1273" gid="65" x="256" y="320" width="64" height="64"/>
+  <object id="1274" gid="65" x="192" y="320" width="64" height="64"/>
+  <object id="1275" gid="65" x="320" y="320" width="64" height="64"/>
+  <object id="1276" gid="65" x="256" y="384" width="64" height="64"/>
+  <object id="1277" gid="65" x="256" y="448" width="64" height="64"/>
+  <object id="1278" gid="65" x="192" y="448" width="64" height="64"/>
+  <object id="1279" gid="65" x="320" y="448" width="64" height="64"/>
+  <object id="1280" gid="64" x="320" y="512" width="64" height="64"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.6.0" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="64" tileheight="64" infinite="0" nextlayerid="10" nextobjectid="551">
+ <tileset firstgid="1" name="MapImage1" tilewidth="64" tileheight="64" tilecount="63" columns="9">
+  <image source="../MapImage1.png" width="576" height="448"/>
+ </tileset>
+ <tileset firstgid="64" name="role" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="../role.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="65" name="box1" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="../box1.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="66" name="point" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="../point.png" width="64" height="64"/>
+ </tileset>
+ <layer id="1" name="Block" width="20" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,56,56,56,56,56,56,56,0,0,0,0,0,0,
+0,0,0,0,56,56,56,56,0,0,0,0,0,56,0,0,0,0,0,0,
+56,56,56,56,56,0,0,0,0,0,0,0,0,56,0,0,0,0,0,0,
+56,0,0,0,56,0,0,56,0,0,0,0,0,56,0,0,0,0,0,0,
+56,0,0,0,56,56,0,56,56,56,0,56,56,56,0,0,0,0,0,0,
+56,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,0,0,
+56,0,0,0,56,0,0,0,0,0,0,0,0,56,0,0,0,0,0,0,
+56,0,0,0,56,0,56,56,0,0,0,0,0,56,0,0,0,0,0,0,
+56,56,56,0,0,0,0,0,0,56,56,0,0,56,0,0,0,0,0,0,
+0,0,56,0,0,0,0,0,0,0,0,0,56,56,0,0,0,0,0,0,
+0,0,56,56,56,0,0,0,0,56,56,56,56,0,0,0,0,0,0,0,
+0,0,0,0,56,56,56,56,56,56,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="Road" width="20" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,54,54,54,54,54,0,0,0,0,0,0,0,
+0,0,0,0,0,54,54,54,54,54,54,54,54,0,0,0,0,0,0,0,
+0,54,54,54,0,54,54,0,54,54,54,54,54,0,0,0,0,0,0,0,
+0,54,54,54,0,0,54,0,0,0,54,0,0,0,0,0,0,0,0,0,
+0,54,54,54,54,54,54,54,54,54,54,54,54,0,0,0,0,0,0,0,
+0,54,54,54,0,54,54,54,54,54,54,54,54,0,0,0,0,0,0,0,
+0,54,54,54,0,54,0,0,54,54,54,54,54,0,0,0,0,0,0,0,
+0,0,0,54,54,54,54,54,54,0,0,54,54,0,0,0,0,0,0,0,
+0,0,0,54,54,54,54,54,54,54,54,54,0,0,0,0,0,0,0,0,
+0,0,0,0,0,54,54,54,54,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="9" name="entity">
+  <object id="521" gid="66" x="516" y="132" width="64" height="64"/>
+  <object id="522" gid="66" x="517.333" y="201.333" width="64" height="64"/>
+  <object id="524" gid="66" x="517" y="264" width="64" height="64"/>
+  <object id="525" gid="66" x="585" y="197" width="64" height="64"/>
+  <object id="526" gid="66" x="583" y="136" width="64" height="64"/>
+  <object id="527" gid="66" x="651" y="135" width="64" height="64"/>
+  <object id="528" gid="66" x="651" y="204" width="64" height="64"/>
+  <object id="529" gid="66" x="644" y="267" width="64" height="64"/>
+  <object id="530" gid="66" x="715" y="261" width="64" height="64"/>
+  <object id="531" gid="66" x="775" y="261" width="64" height="64"/>
+  <object id="532" gid="66" x="772" y="197" width="64" height="64"/>
+  <object id="533" gid="66" x="718" y="200" width="64" height="64"/>
+  <object id="534" gid="66" x="718" y="136" width="64" height="64"/>
+  <object id="535" gid="66" x="787" y="138" width="64" height="64"/>
+  <object id="536" gid="65" x="134.667" y="324" width="64" height="64"/>
+  <object id="537" gid="65" x="198.667" y="389.333" width="64" height="64"/>
+  <object id="538" gid="65" x="132" y="517.333" width="64" height="64"/>
+  <object id="539" gid="65" x="328" y="454.667" width="64" height="64"/>
+  <object id="540" gid="65" x="261.333" y="648" width="64" height="64"/>
+  <object id="541" gid="65" x="388" y="646.667" width="64" height="64"/>
+  <object id="542" gid="65" x="453.333" y="582.667" width="64" height="64"/>
+  <object id="543" gid="65" x="518.667" y="646.667" width="64" height="64"/>
+  <object id="544" gid="65" x="518.667" y="517.333" width="64" height="64"/>
+  <object id="545" gid="65" x="452" y="390.667" width="64" height="64"/>
+  <object id="546" gid="65" x="644" y="389.333" width="64" height="64"/>
+  <object id="547" gid="65" x="714.667" y="392" width="64" height="64"/>
+  <object id="548" gid="65" x="584" y="454.667" width="64" height="64"/>
+  <object id="549" gid="65" x="710.667" y="517.333" width="64" height="64"/>
+  <object id="550" gid="64" x="134.667" y="460" width="64" height="64"/>
+ </objectgroup>
+</map>

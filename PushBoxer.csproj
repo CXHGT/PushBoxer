@@ -1,0 +1,66 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Resource\app.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Screens\button.png" />
+    <None Remove="Screens\GameBackground2.jpg" />
+    <None Remove="Screens\GameBackground3.png" />
+    <None Remove="Screens\GameBackground4.png" />
+    <None Remove="Screens\input.png" />
+    <None Remove="Screens\input2.png" />
+    <None Remove="Screens\message.png" />
+    <None Remove="Screens\message2.png" />
+    <None Remove="Screens\message3.png" />
+    <None Remove="Screens\title.png" />
+    <None Remove="Screens\TopTool4.png" />
+    <None Remove="Screens\TopTool5.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resource\app.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.Drawing.Common" Version="5.0.2" />
+    <PackageReference Include="TiledSharp" Version="1.0.1" />
+    <PackageReference Include="Websocket.Client" Version="4.4.43" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Screens\button.png" />
+    <Resource Include="Screens\GameBackground2.jpg" />
+    <Resource Include="Screens\GameBackground3.png" />
+    <Resource Include="Screens\GameBackground4.png" />
+    <Resource Include="Screens\input.png" />
+    <Resource Include="Screens\input2.png" />
+    <Resource Include="Screens\message.png" />
+    <Resource Include="Screens\message2.png" />
+    <Resource Include="Screens\message3.png" />
+    <Resource Include="Screens\title.png" />
+    <Resource Include="Screens\TopTool4.png" />
+    <Resource Include="Screens\TopTool5.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resource.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
